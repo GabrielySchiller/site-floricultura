@@ -1,0 +1,656 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+ 
+.body{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.logo{
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  
+  
+}
+
+.nome-loja{
+  font-size: 28px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  color: rgb(0, 0, 0);
+   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.866));
+}
+
+.header-mobile {
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: #ffffff;
+     box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.366);
+    color: #000000;
+    padding: 5px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25px;
+    width: 30px;
+    
+}
+
+.bar {
+    width: 100%;
+    height: 3.5px;
+    background-color: #ff8949;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu-mobile {
+  display: flex;
+  align-items: center;
+    border-radius: 0px 0px 0px 7px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.379);
+    width: 20%;
+    padding: 10px 30px;
+    display: none;
+}
+
+.menu-mobile.active {
+    display: block;
+}
+
+.menu-mobile ul {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu-mobile ul li {
+    margin-bottom: 10px;
+}
+
+.menu-mobile ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1rem;
+     font-family: "Winky Rough", sans-serif;
+     letter-spacing: 1px;
+}
+
+.menu-mobile ul li a:hover{
+  transition: 0.2s;
+  color: #f8994c;
+}
+
+
+
+
+/* HOME */
+
+#home{
+  height: 100vh;
+}
+
+.elements-home{
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(251, 242, 233);
+}
+
+.img-home {
+  width: 50%;
+}
+
+.img-home img{
+  margin-top: 80px;
+  width: 100%;
+  height: 70%;
+  border-radius: 3px;
+}
+
+.texts-home{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(242, 180, 132);
+  padding: 30px 0px;
+}
+
+.slogam{
+  width:90% ;
+  font-size: 2.3rem;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.btns-home{
+  display: flex;
+  gap: 20px;
+}
+
+.btn-contato-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Winky Rough", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+  background: transparent;
+  border: none;
+  padding: 0.7rem 1.5em;
+  color: #000000;
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(255, 219, 187);
+   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.241);
+  border-radius: 0px 9px;
+
+}
+
+.img-contato-home{
+  width: 20px;
+  height: 20px;
+  
+}
+
+.btn-contato-home::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 7px;
+  width: 0;
+  background-color: #f7903b;
+  transition: 0.5s ease;
+  /* border-radius:0px 7px 7px 0px; */
+
+}
+
+.btn-contato-home:hover{
+  color: #000000;
+  transition-delay: 0.5s;
+}
+
+.btn-contato-home:hover::before{
+  width: 100%;
+}
+
+.btn-contato-home::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #000000;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+/* DECORAÇÃO JARDIM */
+
+#decoracao{
+  /* height: 100vh; */
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 100px 5px;
+}
+
+.title-decoracao h2{
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 3.5px;
+   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.305));
+ 
+}
+
+.produtos-venda-decoracao{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.produto-venda{
+  border-top: 6px solid rgb(255, 160, 88);
+   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.245);
+  width: 170px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 242, 242);
+  gap: 20px;
+  padding:  15px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.img-produto{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.img-produto img{
+  width: 135px;
+  height: 173px;
+  border-radius: 3px;
+
+}
+
+.informacoes-produto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Winky Rough", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  gap: 10px;
+  width: 99%;
+  height: 90px;
+}
+
+.nome-produto p{
+  font-size: 1.0rem;
+  text-align: center;
+}
+
+.valor-produto p{
+  color: rgb(255, 94, 0);
+  font-size: 1.28rem;
+  font-family: "Winky Rough", sans-serif;
+}
+
+.img-produtos-jardim{
+  width: 18px;
+}
+
+.botao-comprar a{
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 182, 130);
+   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+  padding: 5px 10px;
+  border-radius: 10px 0px 10px  10px;
+  border: solid 2px transparent;
+}
+
+.botao-comprar a:hover{
+  transition: 0.5s;
+  background-color: rgb(238, 238, 238);
+  border: solid 2px rgb(249, 152, 78);
+}
+
+.btn-ver-mais{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 150px;
+  height: 40px;
+  font-family: "Winky Rough", sans-serif;
+  background-color: rgb(248, 168, 111);
+  padding: 10x 15px;
+  border-radius: 3px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 200;
+  border: double 5px rgb(251, 242, 233);
+}
+
+.btn-ver-mais:hover{
+  transition: 0s;
+  background-color: silver;
+  border: double 7px rgb(251, 242, 233);
+}
+
+.img-animada-ver-mais{
+  width: 25px;
+}
+
+
+
+/* FLORES */
+
+#flores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(251, 245, 240);
+  padding: 100px 5px;
+  margin-bottom: -50px;
+}
+
+.title-flores{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  padding: 3px 20px;
+  border-radius: 5px;
+   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+}
+
+.border-bottom{
+  height: 6px;
+  width: 100%;
+  background-color:  #fdb57b;
+  border-radius: 10px;
+}
+
+.title-flores-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.span-flor{
+ font-size: 1.7rem;
+ font-weight: 500;
+ font-style: oblique;
+
+}
+
+.container-flores{
+  margin-left: 180px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Winky Rough", sans-serif;
+}
+
+.box-menor{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box-superior{
+  width: 98%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50%;
+  flex-wrap: wrap;
+  
+
+}
+
+.flor-maior{
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 7px;
+   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.283);
+}
+
+.img-maior{
+  width: 340px;
+}
+
+.flor-menor{
+   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.341);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.img-menor{
+  width: 260px;
+  height: 215px;
+}
+
+
+
+
+.valor-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-family: "Winky Rough", sans-serif;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.valor-flor{
+  color: rgb(21, 21, 21);
+}
+
+.btn-selecionar-flor{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(250, 196, 155);
+   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+
+.btn-selecionar-flor:hover{
+  transition: 0.5s;
+  background-color: silver;
+}
+
+
+
+
+/* PLANTAS */
+
+#plantas{
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 70px 5px;
+}
+
+.title-plantas{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(223, 222, 222);
+  height: 80px;
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.container-plantas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  width: 85%;
+  gap: 23px;
+  flex-wrap: wrap;
+}
+
+.card-planta{
+  width: 180px;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+
+.img-planta img{
+  width: 150px;
+  height: 250px;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.242));
+
+}
+
+.informacoes-planta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 5px;
+  font-family: "Winky Rough", sans-serif;
+  font-size: 1.0rem;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+.nome-planta{
+  font-size: 1.0rem;
+  color: rgb(0, 0, 0);
+}
+
+.btn-planta a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: "Winky Rough", sans-serif;
+  background-color: rgb(255, 189, 142);
+   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.267);
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+  border-radius: 0px 9px;
+  letter-spacing: 1px;
+  border: transparent solid 3px;
+}
+
+.btn-planta a:hover{
+  transition: 0.2s;
+  background-color: rgb(255, 255, 255);
+  border: #f7903b solid 3px;
+}
+
+.img-animada-plantas{
+  width: 25px;
+}
+
+/* FOOTER */
+footer{
+  font-family: "Winky Rough", sans-serif;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(245, 171, 128);
+}
+.informacoes-rodape{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.informacoes-rodape a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.img-contato-footer{
+  width: 15px;
+}
+.creditos{
+  display: flex;
+  height: 30px;
+  gap: 10px;
+}
+
+.creditos a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}

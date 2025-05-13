@@ -1,0 +1,17 @@
+@media (max-width:1065px) {
+    .menu-buttons{
+        height: 30px;
+        display: flex;
+        gap: -20px;
+        padding: 0px;
+        text-align: center;
+        /* flex-direction: column; */
+    }
+}
+
+@media (max-width:710px) {
+    .logo .nome-loja{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}
