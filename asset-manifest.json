@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e125bcbc.css",
+    "main.js": "/static/js/main.6c99e614.js",
+    "static/js/453.2f1dcdda.chunk.js": "/static/js/453.2f1dcdda.chunk.js",
+    "static/media/flores-fundo-home.jpg": "/static/media/flores-fundo-home.710e9c9f61d61277df0a.jpg",
+    "index.html": "/index.html",
+    "main.e125bcbc.css.map": "/static/css/main.e125bcbc.css.map",
+    "main.6c99e614.js.map": "/static/js/main.6c99e614.js.map",
+    "453.2f1dcdda.chunk.js.map": "/static/js/453.2f1dcdda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e125bcbc.css",
+    "static/js/main.6c99e614.js"
+  ]
+}
