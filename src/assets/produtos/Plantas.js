@@ -70,6 +70,18 @@ export const plantasOrnamentais = [
       imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/ChatGPT_Image_9_de_mai._de_2025__21_05_01-removebg-preview.png?updatedAt=1746835530296',
       nome: 'Mancá da Serra',
       valor: '40.00'
+    },
+    {
+      id: 13,
+      imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/ChatGPT_Image_14_de_mai._de_2025__18_36_09-removebg-preview.png?updatedAt=1747258592792',
+      nome: 'Buxinho',
+      valor: '25.00'
+    },
+    {
+      id: 14,
+      imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/ChatGPT_Image_14_de_mai._de_2025__18_38_42-removebg-preview.png?updatedAt=1747258784102',
+      nome: 'Salamandra',
+      valor: '35.00'
     }
   ];
   

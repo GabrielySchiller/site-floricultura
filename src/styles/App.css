@@ -30,9 +30,9 @@
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 1.5px;
+  letter-spacing: 3.5px;
   color: rgb(0, 0, 0);
-   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.866));
+   filter: drop-shadow(5px 5px 3px rgba(93, 93, 93, 0.866));
 }
 
 .header-mobile {
@@ -54,31 +54,66 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 25px;
-    width: 30px;
+    height: 20px;
+    width: 28px;
     
 }
 
 .bar {
     width: 100%;
     height: 3.5px;
-    background-color: #ff8949;
+    background-color: #ff9962;
     transition: transform 0.3s, opacity 0.3s;
+     filter: drop-shadow(5px 0px 3px rgb(198, 197, 197));
 }
 
-.menu-mobile {
+.menu-mobile{
   display: flex;
   align-items: center;
-    border-radius: 0px 0px 0px 7px;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: #ffffff;
-    box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.379);
-    width: 20%;
-    padding: 10px 30px;
-    display: none;
+  border-radius: 0px 0px 0px 7px;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.379);
+  width: 20%;
+  height: 100vh;
+  padding: 20px 30px;
+  gap: 20px;
+  display: none;
+  border-right: 4px solid #ff9962;
 }
+
+.menu-mobile ul{
+  display: flex;
+  gap: 300px;
+
+}
+
+.sections-menu{
+  display: flex;
+  flex-direction:column ;
+  gap: 18px;
+}
+
+.redes-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link-menu{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-menu{
+  margin-left: -15px;
+  width: 16px;
+}
+
+
 
 .menu-mobile.active {
     display: block;
@@ -116,42 +151,44 @@
 /* HOME */
 
 #home{
+  width: 100%;
   height: 100vh;
+  background-image: url('https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/flowers-7716360_1920.jpg?updatedAt=1747349048600');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
 }
 
 .elements-home{
-  height: 98vh;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: rgb(251, 242, 233);
+  justify-content: center;
 }
 
-.img-home {
-  width: 50%;
-}
-
-.img-home img{
-  margin-top: 80px;
+.elements-home .texts-home{
+  position: absolute;
   width: 100%;
-  height: 70%;
-  border-radius: 3px;
-}
-
-.texts-home{
-  width: 50%;
+  height: 250px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  background-color: rgb(242, 180, 132);
+  background-color: rgb(253, 188, 137);
   padding: 30px 0px;
+  border-radius: 3px;
+  z-index: 3;
 }
 
 .slogam{
-  width:90% ;
-  font-size: 2.3rem;
+  width:80% ;
+  font-size: 2.4rem;
   font-family: "Great Vibes", cursive;
   font-weight: 500;
   font-style: normal;
@@ -165,30 +202,31 @@
 }
 
 .btn-contato-home{
+  width: 214px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   font-family: "Winky Rough", sans-serif;
   font-weight: 200;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   background: transparent;
   border: none;
-  padding: 0.7rem 1.5em;
+  padding: 0.5rem 0.1em;
   color: #000000;
   position: relative;
   transition: 0.5s ease;
   cursor: pointer;
   text-decoration: none;
   background-color: rgb(255, 219, 187);
-   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.241);
+   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.344);
   border-radius: 0px 9px;
 
 }
 
 .img-contato-home{
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   
 }
 
@@ -241,7 +279,6 @@
 /* DECORAÇÃO JARDIM */
 
 #decoracao{
-  /* height: 100vh; */
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
@@ -251,19 +288,28 @@
   padding: 100px 5px;
 }
 
+.title-decoracao {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .title-decoracao h2{
+  margin-top: 10px;
   margin-bottom: 30px;
   font-size: 2.2rem;
   font-family: "Great Vibes", cursive;
   font-weight: 500;
   font-style: normal;
-  letter-spacing: 3.5px;
-   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.305));
+  letter-spacing: 4.5px;
+   filter: drop-shadow(5px 5px 2px rgb(95, 95, 95));
  
 }
 
 .produtos-venda-decoracao{
-  width: 95%;
+  width: 99.5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -276,13 +322,13 @@
   border-top: 6px solid rgb(255, 160, 88);
    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.245);
   width: 170px;
-  height: 435px;
+  height: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(243, 242, 242);
-  gap: 20px;
+  gap: 12px;
   padding:  15px;
   border-radius: 3px;
   margin-bottom: 20px;
@@ -338,7 +384,7 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(250, 182, 130);
-   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+  box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.379);
   padding: 5px 10px;
   border-radius: 10px 0px 10px  10px;
   border: solid 2px transparent;
@@ -365,6 +411,7 @@
   font-size: 1.2rem;
   font-weight: 200;
   border: double 5px rgb(251, 242, 233);
+  box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.403);
 }
 
 .btn-ver-mais:hover{
@@ -374,7 +421,7 @@
 }
 
 .img-animada-ver-mais{
-  width: 25px;
+  width: 20px;
 }
 
 
@@ -382,13 +429,13 @@
 /* FLORES */
 
 #flores{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
-  background-color: rgb(251, 245, 240);
-  padding: 100px 5px;
+  background-color:  rgb(254, 227, 204);
+  padding: 100px 1px;
   margin-bottom: -50px;
 }
 
@@ -405,15 +452,9 @@
   margin-bottom: 50px;
   padding: 3px 20px;
   border-radius: 5px;
-   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+   filter: drop-shadow(5px 5px 2px rgb(250, 192, 130));
 }
 
-.border-bottom{
-  height: 6px;
-  width: 100%;
-  background-color:  #fdb57b;
-  border-radius: 10px;
-}
 
 .title-flores-icon{
   display: flex;
@@ -423,20 +464,21 @@
 }
 
 .span-flor{
- font-size: 1.7rem;
+ font-size: 1.9rem;
  font-weight: 500;
  font-style: oblique;
 
 }
 
 .container-flores{
-  margin-left: 180px;
+  /* margin-left: 180px; */
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   font-family: "Winky Rough", sans-serif;
+  margin: 0px;
 }
 
 .box-menor{
@@ -448,7 +490,7 @@
 }
 
 .box-superior{
-  width: 98%;
+  width: 70%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -466,7 +508,7 @@
 }
 
 .img-maior{
-  width: 340px;
+  width: 280px;
 }
 
 .flor-menor{
@@ -477,8 +519,8 @@
 }
 
 .img-menor{
-  width: 260px;
-  height: 215px;
+  width: 190px;
+  height: 170px;
 }
 
 
@@ -514,6 +556,91 @@
 
 
 
+/* INFORMACOES FLORES */
+
+
+.mais-informacoes-flores{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 150px;
+
+}
+
+.contato-flor{
+  background-color: rgb(247, 246, 246);
+  border-radius: 7px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 30px;
+}
+
+.img-contato-flor{
+  width: 90px;
+}
+
+
+.icon-pagamento{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-pagamento img{
+  width: 40px;
+}
+
+.paragrafo-flor{
+  width: 350px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.paragrafo-flor .frase-flor{
+  font-size: 0.9rem;
+ font-family: "Winky Rough", sans-serif;
+ color: rgb(21, 21, 21);
+}
+
+.btn-contato-flor{
+  font-family: "Winky Rough", sans-serif;
+  width: 120px;
+  text-align: center;
+  background-color: #919191;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.452);
+  padding: 3px 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  letter-spacing: 1px;
+  border: transparent 3px solid;
+
+}
+
+.btn-contato-flor:hover{
+  transition: 0.1s;
+  background-color: rgb(243, 242, 242);
+  border: #f7903b ridge 3px;
+  box-shadow: none;
+}
+
+.pagamento {
+  font-size: 1.2rem;
+  font-family: "Winky Rough", sans-serif;
+ color: rgb(21, 21, 21);
+}
+
+
+
 
 /* PLANTAS */
 
@@ -526,7 +653,7 @@
   flex-direction: column;
   margin-top: 50px;
   margin-bottom: 0px;
-  padding: 70px 5px;
+  padding: 70px 1px;
 }
 
 .title-plantas{
@@ -535,11 +662,16 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(223, 222, 222);
-  height: 80px;
+  height: 70px;
   font-family: "Great Vibes", cursive;
   font-size: 2rem;
   letter-spacing: 4px;
   font-weight: 500;
+}
+
+.title-plantas p{
+   filter: drop-shadow(5px 5px 3px rgb(85, 84, 84));
+   letter-spacing: 5px;
 }
 
 .container-plantas{
@@ -548,14 +680,14 @@
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 100px;
-  width: 85%;
+  width: 95%;
   gap: 23px;
   flex-wrap: wrap;
 }
 
 .card-planta{
-  width: 180px;
-  height: 400px;
+  width: 150px;
+  height: 340px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -567,9 +699,9 @@
 
 
 .img-planta img{
-  width: 150px;
-  height: 250px;
-  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.242));
+  width: 120px;
+  height: 210px;
+  filter: drop-shadow(5px 5px 15px rgb(157, 157, 157));
 
 }
 
@@ -579,7 +711,7 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  gap: 5px;
+  gap: 10px;
   font-family: "Winky Rough", sans-serif;
   font-size: 1.0rem;
   letter-spacing: 1px;
@@ -589,6 +721,7 @@
 .nome-planta{
   font-size: 1.0rem;
   color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 .btn-planta a{
@@ -598,10 +731,10 @@
   gap: 5px;
   font-family: "Winky Rough", sans-serif;
   background-color: rgb(255, 189, 142);
-   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.267);
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.452);
   padding: 4px 6px;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: rgb(0, 0, 0);
   border-radius: 0px 9px;
   letter-spacing: 1px;
@@ -615,19 +748,20 @@
 }
 
 .img-animada-plantas{
-  width: 25px;
+  width: 18px;
 }
 
 /* FOOTER */
 footer{
   font-family: "Winky Rough", sans-serif;
   width: 100%;
-  height: 100px;
+  height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgb(245, 171, 128);
+  padding: 15px;
 }
 .informacoes-rodape{
   width: 100%;
@@ -637,7 +771,7 @@ footer{
   flex-direction: column;
 }
 .informacoes-rodape a{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -646,6 +780,9 @@ footer{
 }
 .creditos{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 30px;
   gap: 10px;
 }

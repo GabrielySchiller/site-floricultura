@@ -43,17 +43,74 @@ function App() {
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
-        </div>
+         </div>
+        
         <nav class="menu-mobile">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#decoracao"> Jardim</a></li>
-                <li><a href="#flores">Flores</a></li>
-                <li><a href="#plantas">Plantas Ornamentais</a></li>
-                <li> <a href='https://wa.me/'> Contato</a></li>
+
+              <div className='sections-menu'>
+                    <li>
+                      <a className='link-menu' href="#home">
+                        <img className='img-menu' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/botao-de-inicio.png?updatedAt=1747182598518' /> 
+                        Home
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a className='link-menu' href="#decoracao">
+                        <img className='img-menu' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/ferramenta-de-jardim.png?updatedAt=1747182597555' />
+                        Jardim
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a className='link-menu' href="#flores"> 
+                        <img className='img-menu' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/flor.png?updatedAt=1747182599442' />
+                        Flores
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a className='link-menu' href="#plantas"> 
+                        <img className='img-menu' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/folha-de-cha.png?updatedAt=1747182598588' /> 
+                        Plantas Ornamentais
+                      </a>
+                    </li>
+              </div>
+                
+
+
+
+
+
+
+
+                <div className='redes-menu'>
+                    <li> 
+                      <a className='link-menu' href='https://wa.me/' target='blank'> 
+                        <img className='img-menu' src={imgWhatsapp} /> 
+                        Whatsapp
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a className='link-menu' href='https://instagram.com/' target='blank'> 
+                        <img className='img-menu' src="https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/instagram%20(1).png?updatedAt=1747258087827"/> 
+                        Instagram
+                      </a>
+                    </li>
+                </div>
             </ul>
+
         </nav>
       </header>
+
+
+
+
+
+
+
 
 
       <section id='home'>
@@ -69,10 +126,7 @@ function App() {
             </div>
           </div>
 
-          <div className='img-home'>
-            <img src={imgHome} alt='foto de flor' />         
-         </div>
-        
+         
         </div>
       </section>
 
@@ -102,7 +156,7 @@ function App() {
             {!mostrarMais && (
               <button
                className='btn-ver-mais' 
-               onClick={() => setMostrarMais(true) } > Ver mais <img className='img-animada-ver-mais'   /> </button>
+               onClick={() => setMostrarMais(true) } > Ver mais <img className='img-animada-ver-mais' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/flor%20(1).png?updatedAt=1747182597627'  /> </button>
             )}
 
            </div>
@@ -120,13 +174,13 @@ function App() {
         </div>
 
 
-        <div className='container-flores'>
+       <div className='container-flores'>
           
           <div className='box-maior'>
             
             <div className='flor-maior'>
               <p className='nome-flor'>Tulipa Amarela</p>
-              <img className='img-maior' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/tulipa-amarela.jpg?updatedAt=1745360233382' alt='imagem produto flor' />
+              <img className='img-maior' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/ChatGPT%20Image%2014%20de%20mai.%20de%202025,%2018_46_35.png?updatedAt=1747259206259' alt='imagem produto flor' />
              
               <div className='valor-btn'>
                   <p className='valor-flor'>12,00</p>
@@ -153,7 +207,37 @@ function App() {
         </div>
 
       </div>
-    </section>
+
+      <div className='mais-informacoes-flores'>
+       
+        <div className='contato-flor'>
+          <img className='img-contato-flor' src='https://ik.imagekit.io/gabrielySchiller/icons/celular.png?updatedAt=1747264082007'/>
+          <div className='paragrafo-flor'>
+            <p className='frase-flor'> Quer mais informações ou olhar nosso catálogo de flores completo? Entre em contato conosco para podermos te ajudar!</p>
+            <a className='btn-contato-flor' href=''>Contato</a>
+
+          </div>
+        </div>
+
+        
+        <div className='contato-flor'>
+          <img className='img-contato-flor' src='https://ik.imagekit.io/gabrielySchiller/icons/pagamento-com-cartao-de-credito.png?updatedAt=1747263844861'/>
+         
+          <div className='paragrafo-flor'>
+            <p className='pagamento'>Formas de pagamento da loja</p>
+           
+            <div className='icon-pagamento'>
+              <img src='https://ik.imagekit.io/gabrielySchiller/icons/logotipo-visa.png?updatedAt=1747262855234' alt='cartões visa' />
+              <img src='https://ik.imagekit.io/gabrielySchiller/icons/cartao.png?updatedAt=1747262855471' alt='cartões mastercard' />
+              <img src='https://ik.imagekit.io/gabrielySchiller/icons/transferencia-de-dinheiro.png?updatedAt=1747263049548' alt='transferência bancária' />
+              <img src='https://ik.imagekit.io/gabrielySchiller/icons/icons8-foto-50.png?updatedAt=1747263287310' alt='pix' />
+            </div>
+        </div>
+
+        
+     </div>
+    </div>
+   </section>
 
            
 
@@ -187,9 +271,9 @@ function App() {
 
 
 
-      <footer> 
+      <footer className='footer'> 
         <div className='informacoes-rodape'>
-         <p className='contato'> <a target='blank' href='https://wa.me/'> <img className='img-contato-footer' src={imgWhatsapp} alt='' /> +55 539999999  </a></p>
+         <p className='contato'> <a target='blank' href='https://wa.me/'> <img className='img-contato-footer' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/telefone.png?updatedAt=1747182597964' alt='' /> +55 539999999  </a></p>
          <p className='endereco'> <img className='img-contato-footer' src={imgLocalizacao} alt='' />  Rua das Acácias, Pelotas, RS</p>
 
         </div>
@@ -197,9 +281,11 @@ function App() {
         <div className='creditos'>
           <p>Fotos dos produtos criadas com IA</p> /
           <p>Icones do Freepik</p>  /
-          <p> Foto home de <a href="https://unsplash.com/pt-br/@mtresemer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Michelle Tresemer</a> </p>
+          <p> Foto home de <a href="https://pixabay.com/pt/users/jhenning-8658480/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7716360">beauty_of_nature</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7716360">Pixabay</a></p>
           /
           <a href="https://br.freepik.com/fotos-gratis/foto-vertical-de-tulipas-amarelas-lado-a-lado_11183367.htm#fromView=keyword&page=1&position=8&uuid=35304be7-3504-42b9-b15b-ede7a5291e6c&query=Tulipa+Amarela">Imagem de wirestock no Freepik</a>
+          /
+          <a target="_blank" href="https://icons8.com/icon/uqpbD9vhCDEQ/pix">foto</a> ícone por <a target="_blank" href="https://icons8.com">Icons8</a>
 
         </div>
       </footer>

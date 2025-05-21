@@ -1,6 +1,6 @@
 # 🌸 Floricultura Primavera
 
-Este é um projeto web desenvolvido em **React.js** que simula uma loja de floricultura com foco em produtos para **decoração de jardim, flores e plantas ornamentais**. A proposta é oferecer uma experiência visual agradável, moderna  para o usuário, com opções de contato e localização integradas.
+Este é um projeto web desenvolvido em **React.js** que simula uma loja de floricultura com foco em produtos para **decoração de jardim, flores e plantas ornamentais**. A proposta é oferecer uma experiência visual agradável, moderna e responsiva para o usuário, com opções de contato e localização integradas.
 
 ## ✨ Funcionalidades
 
@@ -54,8 +54,7 @@ Este é um projeto web desenvolvido em **React.js** que simula uma loja de flori
 
 ## 📷 Créditos das Imagens
 
-- 🌷 Foto home por [Michelle Tresemer](https://unsplash.com/pt-br/@mtresemer)
-- 🌼 Tulipas amarelas por [Wirestock](https://br.freepik.com/fotos-gratis/foto-vertical-de-tulipas-amarelas-lado-a-lado_11183367.htm) no Freepik
+- 🌷 Foto home por [Foto home de beauty_of_nature por Pixabay](https://pixabay.com/pt/users/jhenning-8658480/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7716360)
 - 📌 Ícones por Freepik
 
 ---

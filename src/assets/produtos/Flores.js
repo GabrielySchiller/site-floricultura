@@ -1,7 +1,7 @@
 export const flores = [
     {
       id: 1,
-      imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/lirio.jpg?updatedAt=1745360802383',
+      imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/ChatGPT%20Image%2014%20de%20mai.%20de%202025,%2018_43_46.png?updatedAt=1747259037538',
       nome: 'Lírio Rosa',
       valor: '18.00'
     },

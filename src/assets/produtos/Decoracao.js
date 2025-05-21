@@ -10,21 +10,21 @@ export const produtosJardim = [
       id:2,
       imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/luminaria.png?updatedAt=1745364095932',
       nome: 'Luminária Solar',
-      descricao: 'Luminária com painel solar, iluminação LED para destacar caminhos.',
+      descricao: 'Luminária com painel solar e iluminação LED.',
       valor: '40.00'
     },
     {
       id:3,
       imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/fonte.png?updatedAt=1745363878208',
       nome: 'Fonte Ornamental ',
-      descricao: 'Fonte de água de jardim para pássaros, esculpida em pedra natural .',
+      descricao: 'Fonte de água  para pássaros, esculpida em pedra.',
       valor: '320.00'
     },
     {
       id:4,
       imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/globo-vidro.png?updatedAt=1745364444191',
       nome: 'Globo de Vidro ',
-      descricao: 'Globo de vidro soprado à mão, ideal para decorar mesas de jardim.',
+      descricao: 'Globo de vidro soprado à mão, ideal para mesas.',
       valor: '50.00'
     },
     {
@@ -38,7 +38,7 @@ export const produtosJardim = [
       id:6,
       imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/borboleta.png?updatedAt=1745445929993',
       nome: 'Escultura de Borboleta',
-      descricao: 'Escultura artística de metal para pendurar em cercas ou paredes de jardim.',
+      descricao: 'Escultura de metal para pendurar em cercas ou paredes.',
       valor: '75.00'
     },
     {
@@ -52,14 +52,14 @@ export const produtosJardim = [
       id:8,
       imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/banco.png?updatedAt=1745446262142',
       nome: 'Banco de Jardim ',
-      descricao: 'Banco de madeira com encosto alto, ideal para áreas de descanso no jardim.',
+      descricao: 'Banco de madeira com encosto alto, ideal para áreas de descanso.',
       valor: '380.00'
     },
     {
       id:9,
       imagem: 'https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/placa.png?updatedAt=17454463757939',
       nome: 'Placa Decorativa ',
-      descricao: 'Placa decorativa de mosaico colorido para parede ou cerca de jardim.',
+      descricao: 'Placa decorativa de mosaico colorido para paredes ou cercas.',
       valor: '70.00'
     },
     {

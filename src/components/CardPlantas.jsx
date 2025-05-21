@@ -16,7 +16,7 @@ function CardPlantas({imagem , nome , valor}) {
         </div>
 
         <div className='btn-planta'>
-            <a href="https://wa.me/" target='blank'>Mais informações <img className='img-animada-plantas'   /> </a>
+            <a href="https://wa.me/" target='blank'>Ver detalhes <img className='img-animada-plantas' src="https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/icons8-folha-ca%C3%ADda-48.png?updatedAt=1747266619745"   /> </a>
         </div>
 
     </div>

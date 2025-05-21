@@ -1,17 +1,313 @@
-@media (max-width:1065px) {
-    .menu-buttons{
-        height: 30px;
-        display: flex;
-        gap: -20px;
-        padding: 0px;
-        text-align: center;
-        /* flex-direction: column; */
+ @media (max-width:1080px) {
+    
+    .img-home{
+        position: absolute;
+        width: 100%;
+      
     }
+
+    .img-home img{
+        width: 100%;
+        height: 200%;
+        margin-top: 50px;
+    }
+
+    .texts-home{
+        width: 100%;
+        margin-top: -100px;
+
+    }
+
+    #flores .container-flores{
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    #flores .box-superior{
+         width: 80%;
+     }
+ 
+     #flores .box-menor{
+         width: 90%;
+     }
+   
+     .box-maior .flor-maior {
+        width: 290px;
+    }
+
+     .box-maior .flor-maior img{
+        width: 99%;
+    }
+
+    .box-menor .flor-menor {
+        width: 200px;
+    }
+    .box-menor .flor-menor img {
+        width: 99%;
+        height: 160px;
+    }
+
+} 
+
+@media (max-width:870px){
+
+     .header-mobile .menu-mobile{
+        width: 40%;
+    }
+
+     .sections-menu .link-menu{
+        font-size: 1.0rem;
+    }
+
+    .mais-informacoes-flores .contato-flor{
+        width: 366px;
+    }
+
+     #flores .container-flores{
+        width: 100%;
+        margin-left: 250px;
+        gap: 15px;
+    }
+
+      #flores .box-superior{
+         width: 70%;
+     }
+ 
+     #flores .box-menor{
+         width: 90%;
+     }
+
+      .box-maior .flor-maior {
+        width: 200px;
+    }
+    
+    .box-maior .flor-maior img{
+        width: 99%;
+    }
+
+    .box-menor .flor-menor {
+        width: 160px;
+        height: 210px;
+    }
+    .box-menor .flor-menor img {
+        width: 99%;
+        height: 130px;
+    }
+
+   
 }
 
-@media (max-width:710px) {
+ @media (max-width:710px) {
     .logo .nome-loja{
         width: 100%;
         font-size: 1.3rem;
+    }
+
+     .texts-home  .slogam {
+        width: 80%;
+        font-size: 1.8rem;
+    }
+
+    #flores .title-flores {
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .title-flores-icon img{
+        display: none;
+    }
+
+     #flores{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+     }
+
+
+     #flores .container-flores{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 100px;
+    }
+
+    #flores .mais-informacoes-flores{
+        flex-direction: column;
+     }
+
+    .mais-informacoes-flores .contato-flor{
+        width: 330px;
+        height: 180px;
+        font-size: 0.9rem;
+    }
+
+    .contato-flor .pagamento {
+        font-size: 1rem;
+    }
+    .contato-flor img{
+        width: 60px;
+    }
+
+     .footer{
+        height: 12rem;
+        padding: 5px ;
+        gap: 10px;
+     
+    }
+    .footer .informacoes-rodape{
+        margin-top: -70px;
+    }
+
+} 
+
+@media (max-width:600px){
+
+    .header-mobile .menu-mobile{
+        width: 40%;
+    }
+
+    .sections-menu .link-menu{
+        font-size: 0.8rem;
+    }
+
+  #home .elements-home .texts-home{
+        width: 90%;
+        height: 300px;
+        padding: 40px 0px;
+    }
+
+     .texts-home  .slogam {
+        width: 80%;
+        font-size: 1.6rem;
+    }
+
+    .btns-home{
+        flex-direction: column;
+    }
+    .btns-home .btn-contato-home{
+        width: 200px;
+        font-size: 0.8rem;
+    }
+
+    .produtos-venda-decoracao .produto-venda{
+        width: 150px;
+    }
+
+
+    .produto-venda .img-produto img{
+        width: 120px;
+        height: 160px;
+    }
+     #plantas .card-planta {
+        width: 130px;
+     }
+
+    #plantas .card-planta .img-planta img {
+        width: 100px;
+        height: 150px;
+    }
+
+     .footer{
+        height: 14rem;
+        padding: 5px ;
+     
+    }
+    .footer .informacoes-rodape{
+        margin-top: -100px;
+    }
+
+
+
+}
+
+@media (max-width:365px){
+    .header-mobile .menu-mobile{
+        width: 60%;
+    }
+
+    #decoracao .title-decoracao h2{
+        font-size: 1.7rem;
+    }
+
+    #flores .container-flores{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #flores .title-flores span {
+        font-size: 1.5rem;
+    }
+    #flores .title-flores {
+        font-size: 1.7rem;
+    }
+
+     #flores .box-menor{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 10px;
+     }
+
+      #flores .box-maior .flor-maior {
+        width: 200px;
+
+      }
+
+    #flores .box-menor .flor-menor {
+        width: 170px;
+        height: 210px;
+    }
+
+     #flores .box-menor .flor-menor img {
+        height: 140px;
+     }
+
+    .valor-btn .valor-flor{
+        font-size: 0.8rem;
+    }
+
+
+    .mais-informacoes-flores .contato-flor{
+        width: 300px;
+        height: 180px;
+        font-size: 0.9rem;
+    }
+
+    #flores .icon-pagamento{
+        width: 70%;
+        flex-wrap: wrap;
+
+    }
+
+ #flores .icon-pagamento img{
+    width: 30px;
+ }
+
+     .contato-flor .pagamento {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #plantas .title-plantas{
+        font-size: 1.5rem;
+        width: 100%;
+        height: 80px;
+        text-align: center;
+    }
+
+    .footer{
+        height: 17rem;
+        padding: 5px ;
+     
+    }
+    .footer .informacoes-rodape{
+        margin-top: -130px;
     }
 }
