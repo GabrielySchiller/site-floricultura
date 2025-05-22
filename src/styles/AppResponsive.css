@@ -20,32 +20,13 @@
 
     #flores .container-flores{
         width: 100%;
-        margin-left: 20%;
     }
 
     #flores .box-superior{
          width: 80%;
      }
  
-     #flores .box-menor{
-         width: 90%;
-     }
-   
-     .box-maior .flor-maior {
-        width: 290px;
-    }
 
-     .box-maior .flor-maior img{
-        width: 99%;
-    }
-
-    .box-menor .flor-menor {
-        width: 200px;
-    }
-    .box-menor .flor-menor img {
-        width: 99%;
-        height: 160px;
-    }
 
 } 
 
@@ -65,35 +46,13 @@
 
      #flores .container-flores{
         width: 100%;
-        margin-left: 250px;
         gap: 15px;
     }
 
       #flores .box-superior{
-         width: 70%;
+         width: 100%;
      }
  
-     #flores .box-menor{
-         width: 90%;
-     }
-
-      .box-maior .flor-maior {
-        width: 200px;
-    }
-    
-    .box-maior .flor-maior img{
-        width: 99%;
-    }
-
-    .box-menor .flor-menor {
-        width: 160px;
-        height: 210px;
-    }
-    .box-menor .flor-menor img {
-        width: 99%;
-        height: 130px;
-    }
-
    
 }
 
@@ -125,12 +84,11 @@
 
 
      #flores .container-flores{
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left: 100px;
     }
 
     #flores .mais-informacoes-flores{
@@ -200,14 +158,11 @@
         width: 120px;
         height: 160px;
     }
-     #plantas .card-planta {
-        width: 130px;
+
+     #flores .container-flores{
+        flex-direction: column;
      }
 
-    #plantas .card-planta .img-planta img {
-        width: 100px;
-        height: 150px;
-    }
 
      .footer{
         height: 14rem;
@@ -219,6 +174,31 @@
     }
 
 
+
+}
+
+@media (max-width:480px){
+
+   #flores .img-fundo-flores{
+        width: 180px;
+    }
+
+    #flores .box-superior .nome-flor{
+        
+        margin-top: -160px;
+        margin-left: 110px;
+    }
+
+    #flores .valor-flor{
+        font-size: 0.9rem;
+        margin-left: 100px;
+        margin-bottom: 110px;
+    }
+
+    #flores .btn-selecionar-flor{
+        margin-bottom: 50px;
+        margin-left: 70px;
+    }
 
 }
 
@@ -246,28 +226,6 @@
         font-size: 1.7rem;
     }
 
-     #flores .box-menor{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 50px;
-        margin-top: 10px;
-     }
-
-      #flores .box-maior .flor-maior {
-        width: 200px;
-
-      }
-
-    #flores .box-menor .flor-menor {
-        width: 170px;
-        height: 210px;
-    }
-
-     #flores .box-menor .flor-menor img {
-        height: 140px;
-     }
 
     .valor-btn .valor-flor{
         font-size: 0.8rem;

@@ -175,21 +175,6 @@ function App() {
 
        <div className='container-flores'>
           
-          <div className='box-maior'>
-            
-            <div className='flor-maior'>
-              <p className='nome-flor'>Tulipa Amarela</p>
-              <img className='img-maior' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/ChatGPT%20Image%2014%20de%20mai.%20de%202025,%2018_46_35.png?updatedAt=1747259206259' alt='imagem produto flor' />
-             
-              <div className='valor-btn'>
-                  <p className='valor-flor'>12,00</p>
-                  <a className='btn-selecionar-flor' target='blank' href='https://wa.me/'>Selecionar</a>
-                </div>
-
-            </div>
-          </div>
-
-          <div className='box-menor'>
 
             <div className='box-superior'>
                
@@ -202,10 +187,10 @@ function App() {
                />
               ))}
             </div>
-
-        </div>
-
       </div>
+
+      
+
 
       <div className='mais-informacoes-flores'>
        

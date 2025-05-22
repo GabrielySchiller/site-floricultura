@@ -3,8 +3,8 @@ import React from 'react'
 function CardPequenoFlor({ nome , imagem , valor}) {
   return (
     <div className='flor-menor'>
+      <img className='img-fundo-flores' src={imagem}/>
     <p  className='nome-flor'>{nome}</p>
-    <img className='img-menor' src={imagem} alt=' imagem produto flor' />
    
     <div className='valor-btn'>
       <p className='valor-flor'>{`R$ ${valor}`}</p>

@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playwrite+HU:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 
 
@@ -367,6 +368,7 @@
 .nome-produto p{
   font-size: 1.0rem;
   text-align: center;
+   font-family: "Crimson Text", serif;
 }
 
 .valor-produto p{
@@ -435,13 +437,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color:  rgb(254, 227, 204);
+  background-color:  rgb(255, 217, 183);
   padding: 100px 1px;
   margin-bottom: -50px;
 }
 
 .title-flores{
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -477,62 +479,42 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   gap: 10px;
   font-family: "Winky Rough", sans-serif;
   margin: 0px;
 }
 
-.box-menor{
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex-wrap: wrap;
-}
 
 .box-superior{
-  width: 70%;
+  width: 99%;
   display: flex;
   align-items: center;
-  gap: 10px;
-  height: 50%;
+  justify-content: center;
+  gap: 15px;
   flex-wrap: wrap;
   
 
 }
 
-.box-maior{
-  width: 20%;
+
+.img-fundo-flores{
+  border-radius: 5px;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.341);
+  width: 210px;
+  position: relative;
 }
 
-.flor-maior{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 290px;
-  background-color: rgb(255, 255, 255);
-  padding: 5px;
-  border-radius: 7px;
-   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.283);
-}
+#flores .nome-flor{
+   font-family: "Crimson Text", serif;
+   font-size: 1.1rem;
+  width: 50px;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 130px;
+  text-align: center;
 
-.img-maior{
-  width: 280px;
 }
-
-.flor-menor{
-   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.341);
-  background-color: rgb(255, 255, 255);
-  padding: 5px;
-  border-radius: 7px;
-}
-
-.img-menor{
-  width: 190px;
-  height: 170px;
-}
-
 
 
 
@@ -547,13 +529,19 @@
 }
 
 .valor-flor{
+  position: absolute;
+  margin-left: 120px;
+  margin-bottom: 160px;
   color: rgb(21, 21, 21);
 }
 
 .btn-selecionar-flor{
+  position: absolute;
+  margin-left: 109px;
+  margin-bottom: 100px;
   text-decoration: none;
   color: rgb(0, 0, 0);
-  background-color: rgb(250, 196, 155);
+  background-color: rgb(251, 184, 133);
    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
   padding: 3px 8px;
   border-radius: 10px;
@@ -729,9 +717,12 @@
 }
 
 .nome-planta{
-  font-size: 1.0rem;
+  font-size: 1rem;
   color: rgb(0, 0, 0);
   text-align: center;
+   font-family: "Crimson Text", serif;
+   font-weight: 600;
+   letter-spacing: 1.5px;
 }
 
 .btn-planta a{
