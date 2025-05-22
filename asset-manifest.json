@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/site-floricultura/static/css/main.20afe174.css",
-    "main.js": "/site-floricultura/static/js/main.b0509a5c.js",
+    "main.css": "/site-floricultura/static/css/main.ee89f70b.css",
+    "main.js": "/site-floricultura/static/js/main.71f45ded.js",
     "static/js/453.2f1dcdda.chunk.js": "/site-floricultura/static/js/453.2f1dcdda.chunk.js",
-    "static/media/flores-fundo-home.jpg": "/site-floricultura/static/media/flores-fundo-home.710e9c9f61d61277df0a.jpg",
     "index.html": "/site-floricultura/index.html",
-    "main.20afe174.css.map": "/site-floricultura/static/css/main.20afe174.css.map",
-    "main.b0509a5c.js.map": "/site-floricultura/static/js/main.b0509a5c.js.map",
+    "main.ee89f70b.css.map": "/site-floricultura/static/css/main.ee89f70b.css.map",
+    "main.71f45ded.js.map": "/site-floricultura/static/js/main.71f45ded.js.map",
     "453.2f1dcdda.chunk.js.map": "/site-floricultura/static/js/453.2f1dcdda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20afe174.css",
-    "static/js/main.b0509a5c.js"
+    "static/css/main.ee89f70b.css",
+    "static/js/main.71f45ded.js"
   ]
 }
