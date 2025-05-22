@@ -1,9 +1,8 @@
 
+import React, {useState} from 'react';
 import '../src/styles/AppResponsive.css'
 import '../src/styles/App.css';
-import React, {useState} from 'react';
 
-import imgHome from '../src/assets/img/flores-fundo-home.jpg';
 import imgPromocao from '../src/assets/img/promocao.png';
 import  imgWhatsapp from '../src/assets/img/whatsapp.png';
 import imgLocalizacao from '../src/assets/img/pino-de-localizacao.png'
