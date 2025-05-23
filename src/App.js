@@ -18,13 +18,11 @@ import { plantasOrnamentais } from '../src/assets/produtos/Plantas.js';
 function App() {
 
   const [mostrarMais, setMostrarMais] = useState(false);
+   const [menuAtivo, setMenuAtivo] = useState(false);
 
-  function toggleMenu() {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const menu = document.querySelector('.menu-mobile');
-    menu.classList.toggle('active');
-    menuToggle.classList.toggle('active');
-   }
+   const toggleMenu = () => {
+    setMenuAtivo(!menuAtivo);
+   };
 
  
 
@@ -38,13 +36,20 @@ function App() {
            </div>
 
 
-           <div class="menu-toggle" onClick={toggleMenu}>
+           <div onClick={toggleMenu}  className={`menu-toggle ${menuAtivo ? 'active' : ''}`}  >
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
-         </div>
+
+              <div  className={`sair-menu ${menuAtivo ? 'aparecer' : ''}`} onClick={toggleMenu}  >
+                <img title='Fechar menu' src='https://ik.imagekit.io/gabrielySchiller/Projeto-floricultura/remover%20(1).png?updatedAt=1748041228663' alt='fechar menu'/>
+            </div>
         
-        <nav class="menu-mobile">
+         </div>
+
+
+        
+        <nav   className={`menu-mobile ${menuAtivo ? 'active' : ''}`}>
             <ul>
 
               <div className='sections-menu'>
@@ -78,13 +83,7 @@ function App() {
               </div>
                 
 
-
-
-
-
-
-
-                <div className='redes-menu'>
+             <div className='redes-menu'>
                     <li> 
                       <a className='link-menu' href='https://wa.me/' target='blank'> 
                         <img className='img-menu' src={imgWhatsapp} /> 
@@ -103,6 +102,12 @@ function App() {
 
         </nav>
       </header>
+
+
+
+
+
+
 
 
 
