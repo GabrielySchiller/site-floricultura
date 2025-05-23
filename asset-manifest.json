@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/site-floricultura/static/css/main.a28d1d96.css",
-    "main.js": "/site-floricultura/static/js/main.dbc374c4.js",
+    "main.css": "/site-floricultura/static/css/main.20416833.css",
+    "main.js": "/site-floricultura/static/js/main.a9c68d5b.js",
     "static/js/453.2f1dcdda.chunk.js": "/site-floricultura/static/js/453.2f1dcdda.chunk.js",
     "index.html": "/site-floricultura/index.html",
-    "main.a28d1d96.css.map": "/site-floricultura/static/css/main.a28d1d96.css.map",
-    "main.dbc374c4.js.map": "/site-floricultura/static/js/main.dbc374c4.js.map",
+    "main.20416833.css.map": "/site-floricultura/static/css/main.20416833.css.map",
+    "main.a9c68d5b.js.map": "/site-floricultura/static/js/main.a9c68d5b.js.map",
     "453.2f1dcdda.chunk.js.map": "/site-floricultura/static/js/453.2f1dcdda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a28d1d96.css",
-    "static/js/main.dbc374c4.js"
+    "static/css/main.20416833.css",
+    "static/js/main.a9c68d5b.js"
   ]
 }
